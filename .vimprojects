@@ -1,0 +1,12 @@
+Homepage=~/Source/www/html CD=. {
+ index.html
+ 
+ css=./css filter="*.css" {
+   styles.css
+ }
+ javascript=./js filter="*.js" {
+   canvas.js
+ }
+}
+
+
