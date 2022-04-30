@@ -18,9 +18,18 @@
 					<option value="rect">Rectangle</option> 
 				</select> 
 				</p>
-				<canvas id="drawingCanvas" height="532" width="897"> 
+				<canvas id="drawingCanvas" width="512" height="512"> 
 					<p class="noscript">Browser Not Supported</p> 
 				</canvas> 
+				<div id="toolbar">
+					<div id="brushes"></div>
+				</div>
+				<div class="pal white" onclick="context.strokeStyle = '#ffffff';"></div>
+				<div class="pal red" onclick="context.strokeStyle = '#e43b44';"></div>
+				<div class="pal green" onclick="context.strokeStyle = '#63c74d';"></div>
+				<div class="pal blue" onclick="context.strokeStyle = '#0099db';"></div>
+				<div class="pal purple" onclick="context.strokeStyle = '#68386c';"></div>
+				<div class="pal yellow" onclick="context.strokeStyle = '#fee761';"></div>
 			</div>
 		</div>
 	</body>
